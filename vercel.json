@@ -2,11 +2,10 @@
     "name": "api",
     "version": 2,
     "public": true,
-    "build":{
-        "src": "index.js",
+    "build": {
         "use": "@vercel/node"
     },
-    "routes":[
+    "routes": [
         {
             "src": "/(.*)",
             "dest": "routes/routes.js"
