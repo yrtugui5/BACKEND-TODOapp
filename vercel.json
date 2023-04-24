@@ -2,9 +2,12 @@
     "name": "api",
     "version": 2,
     "public": true,
-    "build": {
-        "use": "@vercel/node"
-    },
+    "builds": [
+        {
+            "src": "index.js",
+            "use": "@vercel/node"
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
