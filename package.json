@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon index 'mongodb+srv://cristiano170699:160401@cluster0.e4cby6p.mongodb.net/tarefasDB?retryWrites=true&w=majority'",
+    "start": "node index mongodb+srv://cristiano170699:160401@cluster0.e4cby6p.mongodb.net/tarefasDB?retryWrites=true&w=majority",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
